@@ -84,10 +84,10 @@ Para verlo en GA4:
 
 ## 5. Meta Pixel (ya activo)
 
-El Pixel `1415197632010498` ya está instalado y dispara automáticamente:
+El Pixel `6825715610853797` ya está instalado y dispara automáticamente:
 - `PageView` al cargar la página.
 - `Contact` + evento personalizado `WhatsAppMessengerClick` cada vez que alguien toca un botón de WhatsApp o Messenger.
 
 Verifícalo con la extensión **Meta Pixel Helper** de Chrome, o en Meta Events Manager → tu pixel → pestaña "Test Events".
 
-⚠️ Nota: este Pixel (1415197632010498) pertenece actualmente al negocio "International Hair" en tu Business Manager. Si quieres mantener separada la atribución de KLMA de tus otros negocios, lo ideal es crear un pixel nuevo exclusivo para KLMA en [Meta Events Manager](https://business.facebook.com/events_manager2) y reemplazar el ID en `index.html` (busca `1415197632010498`, aparece dos veces) y avísame para hacerlo.
+(Nota histórica: el sitio usaba antes el pixel `1415197632010498`, que pertenece al negocio "International Hair" y no a la cuenta de KLMA — por eso los eventos no aparecían en el Events Manager correcto. Ya se corrigió al ID `6825715610853797`.)
